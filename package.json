@@ -1,15 +1,15 @@
 {
   "name": "wxwylog",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "log and debug lib",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
-    "build": "webpack ",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/wenxiuweiye/wxwylog"
   },
   "keywords": [
     "[\"debug\"]"
@@ -17,10 +17,15 @@
   "author": "wenxiuweiye",
   "license": "ISC",
   "devDependencies": {
+    "@types/browserify": "^12.0.37",
+    "@types/gulp": "^4.0.10",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
     "jest": "^29.4.1",
-    "ts-loader": "^9.4.2",
-    "typescript": "^4.9.4",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "gulp-typescript": "^6.0.0-alpha.1"
   }
 }
